@@ -3,21 +3,31 @@
 }
 
 .bg-themecolor2 {
-    background-color: #F7CE65;
+    background-color: #FFFEBD;
 }
 
 .bg-themecolor3 {
     background-color: #290000;
 }
 
+.bg-themecolor4 {
+    background-color: #F7CE65;
+}
+
+
+
 .themecolor1 {
     color: #ae5433;
 }
 
 .themecolor2 {
-    color: #F7CE65;
+    color: #FFFEBD;
 }
 
 .themecolor3 {
     color: #290000;
+}
+
+.themecolor4 {
+    color: #F7CE65;
 }
