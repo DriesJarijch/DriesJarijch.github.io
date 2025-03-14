@@ -1,0 +1,121 @@
+"0","for (j in 1:nrow(race_data)) {"
+"0","	row <- race_data[j,]"
+"0","	cat("
+"0","		paste(""###"", row[1], ""{-}"",""\n\n"")"
+"0","	)"
+"0","	cat(paste(""#### Flavour tekst \n\n""))"
+"0","	cat(paste(row[2],""\n\n""))"
+"0","	cat(""---"",""\n\n"")"
+"0","}"
+"1","### Dwarf {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Dwergen zijn stevig gebouwd. Een pak korter dan mensen, maar wel moeilijker klein te krijgen. Dwergen leven echter wel een pak langer dan mensen, ze geraken doorgaans de 350 aan. Het feit dat ze wel wat klappen kunnen hebben, betekend dat ze zich vaak in het midden van alle actie zullen bevinden. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Elf {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Elven zijn veel dunner van bouw dan mensen, ook doorgaans iets langer en zijn vooral te herkennen aan hun scherpere gezicht en puntoren. Ze hebben een unieke connectie met natuur en magie. Dus meestal zul je hun in een van die velden terugvinden. Gezien hun bijzonder lange leeftijd (tot 750 jaar) wijden ze zich toe aan het leren van zo veel mogelijk dingen. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Gnome {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Kabouters zijn mysterieuze magische wezentjes. De zijn nog kleiner dan dwergen, maar leven ontzettend lang (tot 1200 jaar). Ze hebben een speciale connectie met natuur en magie. Dus meestal zul je hun in een van die velden terugvinden. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Half-elf {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Half-elven zijn wat hun naam impliceert: half elven, met de andere helft mens. Fysiek hebben ze meer weg van mensen, maar blijven herkenbaar aan hun punthoren. Ze worden aan hetzelfde tempo volwassen als mensen, maar behouden de levensduur van elven. Ze worden meestal een beetje meer als 'outcast' beschouwd, en je zal ze dus sneller terugvinden in de (metaforische) schaduwen. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Half-orc {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Een half-orc is het resultaat van een mens en een orc die iets te veel plezier hebben gehad met elkaar. Denk kwa bouw eerder aan de hulk, maar dan net iets meer menselijk (en met slagtandjes). In een gevecht zijn ze niet neer te krijgen, dus is dat meestal waar ze zich op richten. Meestal worden ze echter niet zo oud vanwege hun afkomst als orc. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Halfling {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Door copyright is hun naam veranderd van hobbits naar halflings. Als je dus iets weet van hobbits, zal het je niet verbazen dat ze heel dapper zijn, graag mensen helpen en uitzonderlijk veel geluk hebben. Hun interesses gaan uit naar mensen helpen/entertainen of zelf op avontuur uit gaan. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Human {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Standaard mensen zoals je ze rondom je ziet. Ze zijn zeer flexibel en je komt ze zowat overal tegen. Ze zijn binnen DnD van nature zeer open-minded (soms iets te: zie half-elves, half-orcs en soms tieflings) en neigen dus van nature naar meer experimentele levensstijlen. Je talenten zijn betrouwbaar, maar iets minder flashy dan de rest. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Tiefling {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Tieflings zijn eigenlijk nakomelingen van humans die in contact zijn gekomen met sterke helse wezens (op een leuke of minderleuke manier). Ze zien er kwa bouw nog menselijk uit, maar hun hoorns geven onmiddelijk hun status weer. Ze worden door de meeste mensen niet onmiddelijk in vertrouwen genomen, en verkiezen daarom (meestal) om niet het centrum van de aandacht te zijn. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"

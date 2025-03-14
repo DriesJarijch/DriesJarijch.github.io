@@ -1,0 +1,285 @@
+"0","for (i in 1:nrow(class_data)) {"
+"0","	row <- class_data[i,]"
+"0","	cat("
+"0","		paste(""###"", row[1], ""{-}"",""\n\n"")"
+"0","	)"
+"0","	cat(paste(""#### Flavour tekst \n\n""))"
+"0","	cat(paste(row[5],""\n\n""))"
+"0","	cat(paste(""#### Class beschrijving \n\n""))"
+"0","	cat(paste(row[6],""\n\n""))"
+"0","	if (!is.na(row[7])) {"
+"0","		cat(paste(""#### Caster Warning! \n\n""))"
+"0","		cat(paste(row[7],""\n\n""))"
+"0","	}"
+"0","	cat(""---"",""\n\n"")"
+"0","}"
+"1","### Barbarian {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Je kent het gezegde: ""Wie niet sterk is moet slim zijn""? Gelukkig ben jij sterk. Als je vecht wordt je zo boos dat je minder schade krijgt en je harder slaat. Je enige zwakte is dat je eerst bij iemand in de buurt moet kunnen geraken. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","De barbarian is de nummer 1 tank in de game. Je hebt het meeste HP en zal als laatste neer gaan. Buiten combat zijn je opties echter beperkter. Een goede class voor een beginner. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Bard {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Sommige mensen hebben een boek nodig om spreuken te gebruiken. Anderen hebben hun geloof. Maar jij gebruikt kunst, speciale jongen/meid dat je bent. De vorm van kunst maakt ook niet uit. Schilder je een vuurbal die ineens echt word? Scheld je iemand zo hard uit dat ze bewusteloos vallen? Of bespeel je een kazoo die mensen hypnotiseerd? Allemaal een optie met deze class. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","De Bard is een heel goede ondersteunende class, je gaat zelf niet het meeste damage doen, maar je zorgt ervoor dat anderen het veel gemakkelijker hebben. Daarbij heb je heel veel 'out of combat' opties om het leven van je team veel gemakkelijker te maken. Een goede class voor een beginner. 
+
+"
+"1","#### Caster Warning! 
+
+"
+"1","Je bent een full-caster: Deze classes zijn doorgaans wat moeilijker. Maar zeker te leren. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Cleric {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Een boek lezen voor magie is niet voor jou, nee. Jij krijgt magie door je geloof. Dat kan een god zijn, geloof in de kracht van vriendschap, of geloof in pure karma. Laat je hier vooral niet beperken in creativiteit! Misschien ben je zelfs een aanhanger van de dwergen sekte van 'Durnald K. Strump'. Je class is een goede mix van pijn doen tegen vijanden en de pijn van je vrienden weghalen/voorkomen. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","Je bent ongetwijfeld de beste class om mensen in leven te houden, maar dat betekend niet dat dat je enige rol is. De cleric heeft heel goede toegang tot damage spells, buff spells en heal spells. 
+
+"
+"1","#### Caster Warning! 
+
+"
+"1","Je bent een full-caster: Deze classes zijn doorgaans wat moeilijker. Maar zeker te leren. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Druid {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Je haalt je magische krachten uit de natuur. Sommigen beschrijven je als de ""Hippie"" versie van een cleric en dat is opzich niet fout. Deze class kan enorm veel en ook enorm vroeg al. Je kan in dieren veranderen, spreuken gebruiken en heel het slagveld overhoop gooien (hopelijk in jouw voordeel). De perfecte optie voor als je 'team Jacob' was 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","De druid kan zowat welke rol vullen binnen een groep, afhankelijk van waar je in specialiseerd. Deze flexibiliteit kan soms wel heel overweldigend zijn. In  de juiste handen ben je mogelijks de sterkste class in het spell, maar zelfs in de foute handen kan je de rest makkelijk bijhouden. Kies op eigen risico! 
+
+"
+"1","#### Caster Warning! 
+
+"
+"1","Je bent een full-caster: Deze classes zijn doorgaans wat moeilijker. Maar zeker te leren. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Fighter {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Je slaat mensen met een zwaard of beschiet ze met een boog. En dan nog eens, en dan nog eens en nog eens, etc... Je bent zoals je naam zegt: een vechter. Fighters kunnen blijven vechten en zijn heeeel flexibel in welke wapens ze kunnen gebruiken. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","Dit is zonder twijfel de gemakkelijkste class in het spel. Maar daarom niet minder leuk. Je krijgt meer attacks dan elke andere class en je bent in combat niet klein te krijgen. Je krijgt ook een pak meer stat upgrades dan andere classes, dus je kan er van maken wat je wil eigenlijk. Een perfecte class voor een beginner. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Monk {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Je bent een karate ninja met deze class en je hebt geen schrik om het te tonen. Je kan over water en tegen muren op rennen, mensen met je blote vuisten bond en blauw slaan, pijlen en kogels uit de lucht vangen en terug gooien, en nog veel meer. Je doet dit aan de hand van ""Ki"". Als je vaak dagdromen hebt van een 'action movie' ster te zijn, dan ligt hier de perfecte optie. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","De Monk ruilt de hartigheid in voor mobiliteit. Je bent (meestal) gespecialiseerd in 'Close-Up-Combat', en jij hebt enorm veel opties om daar te geraken en te overleven. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Paladin {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","De Cleric haalt hun krachten uit hun geloof, jij haalt de jouwe uit een belofte. Die kan gaan van belofte om ""je geliefden te beschermen"" tot ""ik wil vraak voor de moord op mijn ouder"" of zelf ""ik zal ervoor zorgen dat iedereen vegan wordt"". Je hebt magie ter beschikking, maar je bent evenzeer heel goed met een zwaard. Uiteindelijk krijg je ook een aura die je vrienden versterkt. Dat kan in de vorm van magische uitstraling, natuurlijk charisma of zelfs lichaamsgeur, geef er de twist aan die je wil. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","Dit is een goede tussen optie als je een beetje magie wil gebruiken, maar toch in het midden van het gevecht wil zitten. Je auras versterken andere melee classes, dus die zullen je dankbaar zijn. Zie het als een mooie tussen optie van de Barbarian en de Cleric. PS: Geniet van de crits ;) 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Ranger {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","De Ranger kan je zien als een variant op de Paladin. Alleen ben je nu ook Legolas. Je hebt evenzeer toegang tot een beetje magie, maar die werkt ook intuitief samen met hoe je vecht. Je haalt je magie uit je connectie met de wereld rondom je. Meestal heeft deze class ook een dichte band met dieren. Afhankelijk van je specialisatie heb je companion animals die je rondvolgen en gehoorzamen (Have fun sneeuwwitje) 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","Je bent eerder een mix tussen een Rogue/Fighter en een Druid. Deze class vervult verschillende rollen die andere classes ook (en soms zelfs iets beter) vullen. Deze class is goed als je een beetje wil proeven van magie maar ook in het gevecht wil zitten (en een magisch huisdier wil hebben). Perfect als je de druid wat te intimiderend vind, maar de stijl je wel aanspreekt. Een goede class voor een beginner. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Rogue {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Je bent een sluipmoordenaar. Je schuilt in de schaduwen op zoek naar het moment dat je tegenstander is afgeleid. Dan shiet je een pijl recht in hun nek of steek je een mes in hun nieren. Je ben enorm goed in pijn veroorzaken en ontwijken. Zelfs in de meest nadelige situaties lukt het je toch nog om weg te glippen. Daarnaast ben je de perfecte kleptomaan. Stelen en inbreken is waar je voor gemaakt bent. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","Deze class valt zowel te spelen van ver af als dichtbij. Je valt minder vaak aan, maar je doet in ruil veel meer schade. Pijnlijk als je mist, geweldig als je raakt. Deze class legt de focus vooral op positionering. Buiten combat kan je ook ontzettend veel. Je deelt op dat vlak enkele talenten met de Bard, en in mindere mate de Ranger. Een goede class voor een beginner. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Sorcerer {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Je bent letterlijk het wandelende voorbeeld van een iemand die geluk had bij de geboorte (een nepo-baby). Sommigen studeren hard voor hun magie, anderen sluiten deals of wijden zich toe aan hun geloof. Jij bent met je krachten geboren, lucky bitch. Je kent daarom wel niet veel spells, maar je hebt de optie om ze te manipuleren. Je kan ze bijvoorbeeld moeilijker maken om te ontwijken, of ze dubbel zo ver laten rijken, etc. In één ding ben je vreselijk: Een klap nemen. Als iemand je te hard aankijkt heb je al het risico om te sterven. Maar als je het overleeft kan je met je magie iedereen naar het hiernamaals blazen. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","Samen met de Wizard kan je het meeste schade aanrichten in het spel (vooral op latere levels en op grote groepen). Je opties zijn wel gelimiteerder, maar veel impactvoller, wat deze class in verhouding wel makkelijker te spelen maakt. Een oke class voor een beginner. 
+
+"
+"1","#### Caster Warning! 
+
+"
+"1","Je bent een full-caster: Deze classes zijn doorgaans wat moeilijker. Maar zeker te leren. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Warlock {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Jij had niet de interesse om te studeren in school, dus je ging met de volgende logische optie: Een pact met een demoon, duh! :D. Je leent je magische krachten van een duistere entiteit, dus je hebt niet het meeste controle over je spreuken, maar het gaat ermee door. Je hebt heel veel keuzes met deze class, je zal zelden twee warlocks tegen komen die er hetzelfde uitzien. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","Deze class heeft heel veel flexibilitiet in het het bouwen van je character, maar eens de keuzes zijn gemaakt: niet heel complex, maar goed in wat ze doet (een beetje zoals de Fighter). De introductie van nieuwe concepten gebeurd hier aan een veel makkelijker te begrijpen tempo. Maak je gewoon niet al te veel zorgen over de 'beste' keuzes. Een oke class voor een beginner. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"
+"1","### Wizard {-} 
+
+"
+"1","#### Flavour tekst 
+
+"
+"1","Oke, dus elke magie class heeft tot nu toe nog niet moeten studeren voor hun magie... Jij wel, vette pech. Maar gelukkig ben je er wel enorm goed in. Misschien herinner je dat ik zei dat de barbarian sterk was? Jij bent slim... heel slim. Je houdt al je spreuken bij in geschreven vorm. Meestal is dit in de vorm van een boek of een scroll, maar wie weet, misschien ben je ooit een magisch object tegengekomen dat een ""apple watch"" heet waar je spreuken in kan opslaan. Jammer genoeg ben je ""all brains"". Je bent even kwetsbaar als de sorcerer, Dus je hoopt maar beter dat een barbarian tussen jouw en de draak gaat staan als hij vuur spuwt. Voordeel: als je het overleeft kan je de draak levend frituren, verbannen naar een andere dimensie of  (als je sterk genoeg bent) zelfs wensen dat de draak nooit bestaan had. 
+
+"
+"1","#### Class beschrijving 
+
+"
+"1","Je bent een glazen kannon in combat en een Zwitsers zakmes buiten combat. Je leert veel spells, kan er meer casten dan andere classes en je kan er zelfs bijleren uit scrolls. Als je volledig wil ingaan op spells, is dit de class voor jou! Deze class kan enorm veel, enorm snel en je zal veel keuzes moeten maken met je spells. Ze is dus heel flexibel, maar dat maakt ze ook enorm ingewikkeld als je nog nooit DnD gespeeld heb. Kies op eigen risico. 
+
+"
+"1","#### Caster Warning! 
+
+"
+"1","Je bent een full-caster: Deze classes zijn doorgaans wat moeilijker. Maar zeker te leren. 
+
+"
+"1","---"
+"1"," "
+"1","
+
+"

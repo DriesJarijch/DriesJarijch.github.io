@@ -1,0 +1,64 @@
+---
+title: "DnD - Intro Wiki"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+source("Loadscript.R")
+```
+
+## Hello there!
+
+Do you want to make your first (or hundredth) DnD character?
+Then this is the place to be!
+
+For some context: This is basically a wiki-like website. This will not provide enough info to actually make your character. But that's not really the point. This website aims to provide you with some very basic info surrounding the different Races and Classes available to you.
+
+Every character has a Class and a Race:
+
+* Your Race is part of what you look like, and provides you with some inherent advantages: For example, an elf can see in the dark, a dragonborn can breathe fire, and so on
+* Your Class is part of your 'training'. It defines where you actually get your skills from: A wizard has learned to cast spells, a rogue has learned to be quiet, and you will never believe what a fighter has learned to do ;)
+
+As you can imagine, these two choices are quite impactful for you to make: They literally define who your character will be. To make the choice a bit less scary (because you have A LOT of options), I have provided a short overview of your options below.
+If you are visiting this website, you will most likely be playing with Dries as the Dungeon Master. So once you have made your choice, simply send them over to him! He will conjure up a character based on your choices :)
+
+## Classes {.tabset .tabset-pills}
+
+```{r results="asis"}
+for (i in 1:nrow(class_data)) {
+	row <- class_data[i,]
+	cat(
+		paste("###", row[1], "{-}","\n\n")
+	)
+	cat(paste("#### Flavour tekst \n\n"))
+	cat(paste(row[5],"\n\n"))
+	cat(paste("#### Class beschrijving \n\n"))
+	cat(paste(row[6],"\n\n"))
+	if (!is.na(row[7])) {
+		cat(paste("#### Caster Warning! \n\n"))
+		cat(paste(row[7],"\n\n"))
+	}
+	cat("---","\n\n")
+}
+```
+
+## Races {.tabset .tabset-pills}
+
+```{r results="asis"}
+for (j in 1:nrow(race_data)) {
+	row <- race_data[j,]
+	cat(
+		paste("###", row[1], "{-}","\n\n")
+	)
+	cat(paste("#### Flavour tekst \n\n"))
+	cat(paste(row[2],"\n\n"))
+	cat("---","\n\n")
+}
+```
+
+
+
+
+
+
