@@ -1,0 +1,82 @@
+---
+title: "DnD - Intro Wiki"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+source("../Loadscript.R")
+```
+
+## Hello There!
+
+Do you want to make your first (or hundredth) DnD character?
+Then this is the place to be!
+
+For some context: This is basically a wiki-like website. This will not provide enough info to actually make your character. But that's not really the point. This website aims to provide you with some very basic info surrounding the different Races and Classes available to you.
+
+### Choices, Choices
+
+Every character has a Race and a Class:
+
+* Your Race is part of what you look like, and provides you with some inherent advantages: For example, an elf can see in the dark, a dwarf can drink a lot of alcohol, and so on.
+* Your Class is part of your 'training'. It defines where you actually get your skills from: A wizard has learned to cast spells, a rogue has learned to be quiet, and you will never believe what a fighter has learned to do ;)
+
+As you can imagine, these two choices are quite impactful for your character: They literally define who your character will be. To make the choice a bit less scary (because you have A LOT of options), I have provided a short overview of your options below.
+If you are visiting this website, you will most likely be playing with Dries as the `Dungeon Master`. So once you have made your choices, simply send them over to him! He will conjure up a character based on your choices :)
+
+
+### It all started...
+
+In addition to the choices above, it is also quite important to give your character a motivation and some background. This does not have to be extensive (you are probably only level 1) but it is important to have some context for your character. The most important questions are:
+
+* Why is your character going on an adventure? (goal)
+* Where does your character come from? (location but also a bit about family and friends, or even enemies)
+* What is your character like? (personality)
+
+This does not have to be extensive, and it is not fixed. In fact, it is encouraged to make things up as the story unfolds. However, a small basis is nice to have:
+
+* On the one hand, it gives the Dungeon Master an idea for where the story can go.
+* On the other hand, it gives you (as a player) an idea of how your character would react in familiar/unfamiliar situations.
+
+For your first character, I suggest not stepping too far out of your comfort zone in terms of personality. But in terms of your past and your goals: the wilder, the better!
+
+## Classes {.tabset .tabset-pills}
+
+```{r results="asis"}
+for (i in 1:nrow(class_data)) {
+	row <- class_data[i,]
+	cat(
+		paste("###", row[1], "{-}","\n\n")
+	)
+	cat(paste("#### Flavour text \n\n"))
+	cat(paste(row[2],"\n\n"))
+	cat(paste("#### Class description \n\n"))
+	cat(paste(row[3],"\n\n"))
+	if (!is.na(row[4])) {
+		cat(paste("#### Caster Warning! \n\n"))
+		cat(paste(row[4],"\n\n"))
+	}
+	cat("---","\n\n")
+}
+```
+
+## Races {.tabset .tabset-pills}
+
+```{r results="asis"}
+for (j in 1:nrow(race_data)) {
+	row <- race_data[j,]
+	cat(
+		paste("###", row[1], "{-}","\n\n")
+	)
+	cat(paste("#### Flavour text \n\n"))
+	cat(paste(row[2],"\n\n"))
+	cat("---","\n\n")
+}
+```
+
+
+
+
+
+

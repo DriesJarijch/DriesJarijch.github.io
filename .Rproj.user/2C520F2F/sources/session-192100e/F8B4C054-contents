@@ -1,0 +1,97 @@
+---
+title: "DnD - Intro Wiki"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+source("../Loadscript.R")
+```
+
+## Hallo Daar!
+
+Wil je je eerste (of honderdste) DnD-karakter maken?
+Dan zit je hier op de juiste plek!
+
+Voor wat context: dit is in principe een wiki-achtige website. Deze zal niet genoeg informatie geven om je personage daadwerkelijk te maken. Maar dat is niet echt het punt. Deze website is bedoeld om je wat basisinformatie te geven over de verschillende rassen en klassen die voor je beschikbaar zijn.
+
+### Keuzes, Keuzes
+
+Elk personage heeft een 'Race' en een 'Class':
+
+* Je Race bepaald hoe je eruitziet en biedt je een aantal inherente voordelen: bijvoorbeeld, een elf kan in het donker zien, een dwerg veel drinken, enzovoort
+* Je Class is onderdeel van je 'training'. Het definieert waar je je vaardigheden vandaan haalt: een Wizard heeft geleerd om spreuken te gebruiken, een Rogue heeft geleerd om stil te zijn en je zult nooit geloven wat een Fighter heeft geleerd ;)
+
+Zoals je je kunt voorstellen, zijn deze twee keuzes behoorlijk impactvol voor je karakter: ze definiëren letterlijk wie je als persoon zal zijn (in het spel). Om de keuze wat minder eng te maken (omdat je VEEL opties hebt), heb ik hieronder een kort overzicht van je opties gegeven.
+Als je deze website bezoekt, speel je hoogstwaarschijnlijk met Dries als `Dungeon Master`. Dus zodra je je keuzes hebt gemaakt, stuur je ze gewoon naar hem! Hij zal een personage in elkaar knutselen op basis van jouw keuzes :)
+
+
+### Het begon allemaal...
+
+Naast bovenstaande keuzes, is het ook best belangrijk om je karakter een motivatie en wat achtergrond te geven. Dit hoeft niet uitgebreid te zijn (je bent waarschijnlijk toch pas level 1) maar het is belangrijk om wat context te hebben voor je karakter. De belangrijkste vragen zijn:
+
+* Waarom gaat je karakter op avontuur? (doel)
+* Waar komt je karakter vandaan? (locatie maar ook een beetje familie en vrienden)
+* Hoe zit je karakter in elkaar? (persoonlijkheid)
+
+Dit hoeft niet uitgebreid te zijn, en staat ook niet vast. Sterker nog, het wordt aangemoedigd om bij te verzinnen metdat het verhaal zich ontplooit. Een kleine basis is echter wel leuk om:
+
+* Enerzijds de Dungeon Master een houvast te geven voor waar het verhaal naartoe kan.
+* Anderzijds jou als speler een idee te geven van hoe je karakter zou reageren in een bekende/onbekende situatie.
+
+Voor een eerste karakter stel ik voor om nog niet te ver uit je comfort zone te stappen op vlak van persoonlijkheid. Maar op vlak van geschiedenis is doel: Hoe wilder hoe beter!
+
+---
+
+Do you want to make your first (or hundredth) DnD character?
+Then this is the place to be!
+
+For some context: This is basically a wiki-like website. This will not provide enough info to actually make your character. But that's not really the point. This website aims to provide you with some very basic info surrounding the different Races and Classes available to you.
+
+Every character has a Class and a Race:
+
+* Your Race is part of what you look like, and provides you with some inherent advantages: For example, an elf can see in the dark, a dragonborn can breathe fire, and so on
+* Your Class is part of your 'training'. It defines where you actually get your skills from: A wizard has learned to cast spells, a rogue has learned to be quiet, and you will never believe what a fighter has learned to do ;)
+
+As you can imagine, these two choices are quite impactful for you to make: They literally define who your character will be. To make the choice a bit less scary (because you have A LOT of options), I have provided a short overview of your options below.
+If you are visiting this website, you will most likely be playing with Dries as the Dungeon Master. So once you have made your choice, simply send them over to him! He will conjure up a character based on your choices :)
+
+## Classes {.tabset .tabset-pills}
+
+```{r results="asis"}
+for (i in 1:nrow(class_data)) {
+	row <- class_data[i,]
+	cat(
+		paste("###", row[1], "{-}","\n\n")
+	)
+	cat(paste("#### Flavour tekst \n\n"))
+	cat(paste(row[5],"\n\n"))
+	cat(paste("#### Class beschrijving \n\n"))
+	cat(paste(row[6],"\n\n"))
+	if (!is.na(row[7])) {
+		cat(paste("#### Caster Warning! \n\n"))
+		cat(paste(row[7],"\n\n"))
+	}
+	cat("---","\n\n")
+}
+```
+
+## Races {.tabset .tabset-pills}
+
+```{r results="asis"}
+for (j in 1:nrow(race_data)) {
+	row <- race_data[j,]
+	cat(
+		paste("###", row[1], "{-}","\n\n")
+	)
+	cat(paste("#### Flavour tekst \n\n"))
+	cat(paste(row[2],"\n\n"))
+	cat("---","\n\n")
+}
+```
+
+
+
+
+
+
