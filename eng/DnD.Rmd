@@ -75,8 +75,19 @@ for (j in 1:nrow(race_data)) {
 }
 ```
 
+## Great! ... What's next?
 
+So, hopefully you've made most of your important choices by now. Now it's time to create your character. Luckily, DnD makes this incredibly... __difficult__. Character creation is a complex process, and this is just the beginning. To make things a little more beginner-friendly, Dries has very generously volunteered to do this for (or with) you. On average, this can take anywhere from 30 minutes to an hour (hopefully you're starting to understand why this wiki was necessary). What does Dries need to build your character as best as he can:
 
+* Your chosen Race.
+* Your chosen Class.
+* A short bio of your character. Think about the 3 questions:
+	* Where are you from? (family, friends, enemies, and location)
+	* Why are you going on an adventure? (goals/motivation)
+	* What is your character like? (personality)
 
+If this is your first time playing DnD ever, don't worry too much about the bio. Chances are we'll only have a short session where most of it won't be covered. Alternatively, although I'm personally against it, you can always ask our AI-overlord to give you some inspiration.
+
+So, now that you have all that, all you have to do is send it all to Dries, and you'll have your own Dungeons and Dragons character in no time.
 
 

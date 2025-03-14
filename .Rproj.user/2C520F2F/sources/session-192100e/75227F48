@@ -3,7 +3,7 @@
     "path": "~/GitHub/DriesJarijch.github.io/eng/DnD.Rmd",
     "project_path": "eng/DnD.Rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "717085657",
     "contents": "",
     "dirty": false,
     "created": 1741955171690.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "76,0",
-        "scrollLine": "54"
+        "cursorPosition": "87,0",
+        "scrollLine": "73"
     },
     "folds": "",
-    "lastKnownWriteTime": 1741955711,
+    "lastKnownWriteTime": 1741959152,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1741955711756,
+    "last_content_update": 1741959152451,
     "read_only": false,
     "read_only_alternatives": []
 }
