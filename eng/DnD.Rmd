@@ -1,5 +1,5 @@
 ---
-title: "DnD - Intro Wiki"
+title: "Dungeons and Dragons - Intro Wiki (ENG)"
 output: html_document
 ---
 
