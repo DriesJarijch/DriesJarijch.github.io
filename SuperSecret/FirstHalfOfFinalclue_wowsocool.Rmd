@@ -1,0 +1,16 @@
+---
+title: "The First Half of The Clue"
+output: html_document
+css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F)
+```
+
+<br>
+<br>
+
+### Although a bit late
+
+### For your repeated date
